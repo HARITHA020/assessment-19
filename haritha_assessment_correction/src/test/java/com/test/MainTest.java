@@ -12,7 +12,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import com.pages.AccountPage;
+import com.pages.CartPage;
 import com.pages.LoginPage;
+import com.pages.PaymentPage;
+import com.pages.SearchPage;
 import com.pages.SignupPage;
 import com.pages.SigupDetailsPage;
 import com.pages.UserHomePage;
@@ -26,6 +29,9 @@ public class MainTest {
 	UserHomePage home;
 	AccountPage account;
 	LoginPage login;
+	SearchPage search;
+	CartPage cart;
+	PaymentPage payment;
 	 @BeforeClass
 	    public void start() {
 	        System.out.println("Start the test ");

@@ -1,49 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-02T19:22:24 IST" name="Default suite" finished-at="2026-05-02T19:23:00 IST" duration-ms="35818">
+  <suite started-at="2026-05-04T00:21:41 IST" name="Default suite" finished-at="2026-05-04T00:22:21 IST" duration-ms="40550">
     <groups>
     </groups>
-    <test started-at="2026-05-02T19:22:24 IST" name="Default test" finished-at="2026-05-02T19:23:00 IST" duration-ms="35818">
-      <class name="com.test.CommonTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.test.CommonTest@3a52dba3]" started-at="2026-05-02T19:22:24 IST" name="start" finished-at="2026-05-02T19:22:33 IST" duration-ms="9088" status="PASS">
+    <test started-at="2026-05-04T00:21:41 IST" name="Default test" finished-at="2026-05-04T00:22:21 IST" duration-ms="40550">
+      <class name="com.test.ProductTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.test.ProductTest@55fe41ea]" started-at="2026-05-04T00:21:41 IST" name="start" finished-at="2026-05-04T00:21:52 IST" duration-ms="11246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="signupTest()[pri:1, instance:com.test.CommonTest@3a52dba3]" started-at="2026-05-02T19:22:33 IST" name="signupTest" finished-at="2026-05-02T19:22:38 IST" duration-ms="5260" status="PASS">
+        <test-method signature="Search()[pri:0, instance:com.test.ProductTest@55fe41ea]" started-at="2026-05-04T00:21:52 IST" name="Search" finished-at="2026-05-04T00:22:06 IST" duration-ms="14056" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signupTest -->
-        <test-method signature="SigupDetails()[pri:0, instance:com.test.CommonTest@3a52dba3]" started-at="2026-05-02T19:22:38 IST" name="SigupDetails" finished-at="2026-05-02T19:22:46 IST" depends-on-methods="com.test.CommonTest.signupTest" duration-ms="7732" status="PASS">
+        </test-method> <!-- Search -->
+        <test-method signature="cart()[pri:0, instance:com.test.ProductTest@55fe41ea]" started-at="2026-05-04T00:22:06 IST" name="cart" finished-at="2026-05-04T00:22:12 IST" depends-on-methods="com.test.ProductTest.Search" duration-ms="5788" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SigupDetails -->
-        <test-method signature="accountcreated()[pri:0, instance:com.test.CommonTest@3a52dba3]" started-at="2026-05-02T19:22:46 IST" name="accountcreated" finished-at="2026-05-02T19:22:48 IST" depends-on-methods="com.test.CommonTest.SigupDetails" duration-ms="2222" status="PASS">
+        </test-method> <!-- cart -->
+        <test-method signature="payment()[pri:0, instance:com.test.ProductTest@55fe41ea]" started-at="2026-05-04T00:22:12 IST" name="payment" finished-at="2026-05-04T00:22:19 IST" depends-on-methods="com.test.ProductTest.cart" duration-ms="6995" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- accountcreated -->
-        <test-method signature="homePage()[pri:0, instance:com.test.CommonTest@3a52dba3]" started-at="2026-05-02T19:22:48 IST" name="homePage" finished-at="2026-05-02T19:22:50 IST" depends-on-methods="com.test.CommonTest.accountcreated" duration-ms="1609" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- homePage -->
-        <test-method signature="signupTestExist()[pri:2, instance:com.test.CommonTest@3a52dba3]" started-at="2026-05-02T19:22:50 IST" name="signupTestExist" finished-at="2026-05-02T19:22:53 IST" duration-ms="2789" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signupTestExist -->
-        <test-method signature="loginpage()[pri:3, instance:com.test.CommonTest@3a52dba3]" started-at="2026-05-02T19:22:53 IST" name="loginpage" finished-at="2026-05-02T19:22:57 IST" duration-ms="4027" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpage -->
-        <test-method signature="invalidlogin()[pri:4, instance:com.test.CommonTest@3a52dba3]" started-at="2026-05-02T19:22:57 IST" name="invalidlogin" finished-at="2026-05-02T19:22:59 IST" duration-ms="1829" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidlogin -->
-        <test-method is-config="true" signature="stop()[pri:0, instance:com.test.CommonTest@3a52dba3]" started-at="2026-05-02T19:22:59 IST" name="stop" finished-at="2026-05-02T19:23:00 IST" duration-ms="1087" status="PASS">
+        </test-method> <!-- payment -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:com.test.ProductTest@55fe41ea]" started-at="2026-05-04T00:22:19 IST" name="stop" finished-at="2026-05-04T00:22:21 IST" duration-ms="2280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->
-      </class> <!-- com.test.CommonTest -->
+      </class> <!-- com.test.ProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
