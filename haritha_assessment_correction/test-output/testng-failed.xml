@@ -8,8 +8,8 @@
           <include name="stop"/>
           <include name="Search"/>
           <include name="start"/>
-          <include name="cart"/>
           <include name="payment"/>
+          <include name="cart"/>
         </methods>
       </class> <!-- com.test.ProductTest -->
     </classes>
